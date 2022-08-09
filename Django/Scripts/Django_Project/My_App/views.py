@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return render(request,'Input.html')
+    return render(request,'index.html')
 def cgpa(request):
     chephy=request.GET["BS3271"]
     che=request.GET["CY3251"]

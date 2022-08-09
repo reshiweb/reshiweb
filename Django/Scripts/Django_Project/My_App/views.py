@@ -119,4 +119,4 @@ def cgpa(request):
     phy1*=3
 
     cgpa= (py1+che1+chephy1+pylab1+eng1+mat1+phy1)/25
-    return render(request,"https://reshiweb.github.io/reshiweb/Django/Scripts/Django_Project/templates/CGPA.html",{'CGPA':cgpa})
+    return render(request,"CGPA.html",{'CGPA':cgpa})
